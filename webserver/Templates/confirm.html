@@ -1,0 +1,93 @@
+﻿<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .wrapper {
+            background-color: #fff;
+            border-radius: 4px;
+            max-width: 550px;
+            width: 100%;
+            margin: 100px 0;
+            padding: 30px 50px;
+            box-sizing: border-box;
+        }
+
+        .wrapper-td {
+            padding: 0 10px;
+        }
+
+        .logo-wrap {
+            text-align: center;
+            padding: 16px 0;
+            margin-bottom: 80px;
+        }
+
+        .text-body {
+            line-height: 25px;
+        }
+
+        .text-wrap {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .text-welcome {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .activation-link {
+            display: inline-block;
+            padding: 16px 50px;
+            border-radius: 50px;
+            background-color: #ed7b92;
+            text-transform: uppercase;
+            color: #fff;
+            text-decoration: none;
+            margin: 50px 0 60px;
+        }
+
+        .link-copy {
+            opacity: .6;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    </style>
+</head>
+<body style="font-family: 'Oswald', sans-serif;">
+    <table width="100%" style="background-color:#eee" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="center" class="wrapper-td">
+                <div class="wrapper">
+                    <div class="logo-wrap">
+                        <img width="140"
+                             src="https://www.nicepng.com/png/full/806-8068476_email-confirmation-vector-illustrator-minimal-simple.png"
+                             alt="logo">
+                    </div>
+                    <div class="text-wrap">
+                        <div class="text-welcome">Bonjour <span style="color:brown">@Model.Username</span>,</div>
+                        <p class="text-body">
+                            Cliquez sur le lien ci-dessous afin de confirmer l'inscription sur notre
+                            <br />
+                            site <a href="https://enemy-down.fr/" style="color:#52A1AE">ENEMY-DOWN.FR</a>
+                        </p>
+                        <a href="{{url}}" class="activation-link">Confirmer</a>
+                        <div class="link-copy">
+                            <div>Albo skopiuj link i wklej w pasku adresu przeglądarki</div>
+                            <a href="https://discord.gg/FwRubAcQ7X">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAq1JREFUWEftl11W2lAQx/8T2tS32hUUiwqmfaAr0K5AXEFxBcUVFFdQuoLiCgorqKxAH2oMaCzdAb6JNZmeEYLkktxLrD1HzyGP3Jm5v5k7XxAe2UePjAcLINOLLCL0oBHK58vLz15cb4aM8kXP3dcZXy05dTCOboZ2p98/HphAonPjkwlEbunPNjPXCChPDBN2fc9trpbebQE3HP1+7nmdQsmpgvFtCqIFopbvnRyYwLRAb4obNQJ9MRnJcD4AYU8cSdNJBcqXSvkcW78yXDav6CAY2itpz5gKVCg6LQDb896STY6++t2TWpJOIpDkBXP4I9sl2aQDClf6ntdXtRKBCkXnEMBmtisyS7f9rlsxAv3H3JkhDob2KzWXZiJUKL5tAPwps7/3UGDw3kX3tDGtmgDkyLu+vof9zCoMHF903fepQGtrTjm0cKSx3AbzqIcQVTVVOK8c1OSORcjQCDt+192ahi2sbzRB9DHmAPOB3zsV2MmnLRLmHb93Ki1m5GdcUZM/41GhAFVA9F0Bil0gZzpHibB/7rn1FCBNuSueiIGkfkVkfTj3fkrbuIvQ+sYs+N1xrPyVCDkylV8m59Bsd02qSNVjsaWrXDWxVaDJ1E6AGhBZO5H34+jIcy0rsvPKTdT8rjvhyAIUGYjafV5TjXI0rxz+FcjAkf34SQGlJzVhFyFvzfQdU0CYD2DRobJBTmvF+lssh27XVXvYSLm0D6J6cPW8nVu6roAhk1oSWtbaqDIvARwDkM2wFVzZrbHsZwBJOdcOhnZ1esDq9iEZEepMuwyGdn7epV2zOfwmsqpqv5rp1Gr0C6OGJpvd7W6UNJ1NLyb/PpghEZKvA0LzXjv19EXiqcVUUVcFE0x0Lo3RCrl5dubKc2o/498gk4GHPl8AmSK6iNCTi9Bfz2kxNCR+Yp4AAAAASUVORK5CYII=" />
+                            </a>
+                            <a href="https://steamcommunity.com/groups/enemydown_fr">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAA8NJREFUWEftV+1t01AUPfe1TfhHNiDgUqcGiTAB6QQtExAmaDcgnQB3goYJoBMQJiBI4DalhjBBk38kwr7ovtqR/WLHdsMPhLAUKZKf7z0+59wPE/6yi/4yPPg3AG3bzj5AHUbYBqgJQH5yjQEeE9QQ4MHVyDurqkBphprNdkPV5odEOALQKJlowgw3nNdOxuPhpMwzpQBZLacLxusKQMzcEzC/9C/P3xWBKgS0bT96zWBhZe2LGb1vl97xqkArAVk7zikI3bWRJAMw+v6l9zIvZi6gNcH8ADCMJG4DuJsGQCf+6Esm65mAIs+cVmWGgE8Uovv1qydgFpe1s3sAon4SGJHau7r4PDBzLAGSatqoz7/fwsBn/sg70NVYn70Ak65ERRhK+UdxxwlQ42BWe2pW3xIgy37kAnxYkZ1pMKvpXrRRn3+EMEVaMoBxwOBrf3S+t9163GEO38exiXB8deH1krkyADnXVdmJA1s7u31SNDaTWLYzAKHvX3h9/R94FjdSf+TdzwUUaf22IjsA83PpMZJMhTha8pDuY9QWI5sKmF5KMSRvCKIXFQFpucQLlu2IL9qmL7RUYdD1L8+72y2nx4xXebKlAaXpLIcrYkcOazmYXbMjCwi5L1JatiPdej8RXBfDAmCqPO3K/kkFEybAoZss/cjI/Zg5y3akguNhLOnHSR+lGHr40GmHxEclZVtIldFzpOmJcacAxFc98VVeBfsjb4EjszFGvaRLIAl8L0u7vMaWp/MDe/eQQG7W/UJAyYciygVYrPsHIgzM0s5K1Gy1mpusntwMZ+rkgP3hj7yFhIXTPg4iweX/VqAaAWF/g3Fmlnd8VqQPFE4JkDlWdH3wR94CbGlApk+IqMeggTkkI2mkqkotcWa3TgHSFGOzmTX0zNcUn23W5wOQOpLz0aySgbwo4SJq5P7Kxhj1kgkD34nIDX5una1aPW+aHDVUyP1QQWZUKVYSQFP+0QDNtzBKc0Kg/q/Z1nEWsJuzMkDDRslWkUpXarhmrAmC+ySgwN2A6siAlKi6Zym8VyH2Khg4CWiJnUyGtGw3S31yQZsEs9p9VZ/p3sTANQFTGaQhcRNElQdy6QUtfgVz0DIwVEAv/tbSpU3YJ0Jqnyln5OU9KH6uYMm/1fRfjYn5jUz9vEOFfeiWG2ROvvzlvhRDCfmWlvQy0iTOTMEs+9D6H4qL0SHL/535AVh7JnPgZoCcEsH99bPm/tFPaTOR3nsQdpjRIaDBwJPojKwbQ4CGRPSuTMc3Yxd6qKI0ax//D6iIwt9X7cw0oxw3/AAAAABJRU5ErkJggg==" />
+                            </a>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>

@@ -1,0 +1,11 @@
+C:\Users\benit\source\repos\webserver\webserver\obj\Release\net6.0\PubTmp\Out\webserver.exe
+C:\Users\benit\source\repos\webserver\webserver\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\benit\source\repos\webserver\webserver\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\benit\source\repos\webserver\webserver\obj\Release\net6.0\PubTmp\Out\webserver.dll
+C:\Users\benit\source\repos\webserver\webserver\obj\Release\net6.0\PubTmp\Out\webserver.deps.json
+C:\Users\benit\source\repos\webserver\webserver\obj\Release\net6.0\PubTmp\Out\webserver.runtimeconfig.json
+C:\Users\benit\source\repos\webserver\webserver\obj\Release\net6.0\PubTmp\Out\webserver.pdb
+C:\Users\benit\source\repos\webserver\webserver\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\benit\source\repos\webserver\webserver\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\benit\source\repos\webserver\webserver\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\benit\source\repos\webserver\webserver\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1,0 +1,3 @@
+cd ..
+rm -rf linux-x64 linux-x64.zip
+unzip linux-x64.zip && cd linux-x64 && chmod +777 webserver && ./webserver

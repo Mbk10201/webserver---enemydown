@@ -1,0 +1,1 @@
+dotnet build webserver -c Release -r linux-x64 --self-contained

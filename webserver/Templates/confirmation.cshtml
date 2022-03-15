@@ -1,0 +1,98 @@
+﻿@model webserver.Models.html_confirmdata
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .wrapper {
+            background-color: #fff;
+            border-radius: 4px;
+            max-width: 550px;
+            width: 100%;
+            margin: 100px 0;
+            padding: 30px 50px;
+            box-sizing: border-box;
+        }
+
+        .wrapper-td {
+            padding: 0 10px;
+        }
+
+        .logo-wrap {
+            text-align: center;
+            padding: 16px 0;
+            margin-bottom: 80px;
+        }
+
+        .text-body {
+            line-height: 25px;
+        }
+
+        .text-wrap {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .text-welcome {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .activation-link {
+            display: inline-block;
+            padding: 16px 50px;
+            border-radius: 50px;
+            background-color: #ed7b92;
+            text-transform: uppercase;
+            color: #fff;
+            text-decoration: none;
+            margin: 50px 0 60px;
+        }
+
+        .link-copy {
+            opacity: .6;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    </style>
+</head>
+<body style="font-family: 'Oswald', sans-serif;">
+    <table width="100%" style="background-color:#eee" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="center" class="wrapper-td">
+                <div class="wrapper">
+                    <div class="logo-wrap">
+                        <img width="140"
+                             src="https://www.nicepng.com/png/full/806-8068476_email-confirmation-vector-illustrator-minimal-simple.png"
+                             alt="logo">
+                    </div>
+                    <div class="text-wrap">
+                            <div class="text-welcome">Bonjour 
+                                <span style="color:brown">@Model.Username</span>,
+                            </div>
+                            <p class="text-body">
+                                Cliquez sur le lien ci-dessous afin de confirmer l'inscription sur notre
+                                <br />
+                                site <a href="https://enemy-down.fr/" style="color:#52A1AE">ENEMY-DOWN.FR</a>
+                            </p>
+                            <a href="@("https://enemy-down.fr/#/confirm?code=" + Model.keycontent)" class="activation-link">Confirmer</a>
+                            <div class="link-copy">
+                                <div>Nous vous invitons à nous suivre & rejoindre nos réseaux sociaux !</div>
+                                <a href="https://discord.gg/FwRubAcQ7X">
+                                    <img src="https://enemy-down.fr/assets/images/icons/discord.png" style="color:#5865F2"/>
+                                </a>
+                                <a href="https://steamcommunity.com/groups/enemydown_fr">
+                                    <img src="https://enemy-down.fr/assets/images/icons/steam.png" style="color:#23272A"/>
+                                </a>
+                            </div>
+                            <img src="https://enemy-down.fr/assets/images/logo_line.png" />
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>

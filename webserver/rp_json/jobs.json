@@ -1,0 +1,756 @@
+[
+	{
+		"id":			0,
+		"jobname":		"Pôle Emploi",
+		"capital":		1000000,
+		"doors":		"",
+		"cansell":		0,
+		"grades":[
+			{
+				"grade":	"Chômeur",
+				"clantag":	"Chômeur",
+				"salary":	500,
+				"model":	"none"
+			}
+		]
+	},
+	{
+		"id":			1,
+		"jobname":		"Police",
+		"capital":		1000000,
+		"doors":		"door_police",
+		"cansell":		0,
+		"grades":[
+			{
+				"grade":		"Commandant",
+				"clantag":		"Commandant",
+				"salary":		2000,
+				"model":		"models/player/custom_player/kuristaja/jailbreak/guard3/guard3.mdl"
+			},
+			{
+				"grade":		"C.I.A",
+				"clantag":		"C.I.A",
+				"salary":		1900,
+				"model":		"models/player/custom_player/kuristaja/jailbreak/guard3/guard3.mdl"
+			},
+			{
+				"grade":		"S.W.A.T",
+				"clantag":		"S.W.A.T",
+				"salary":		1800,
+				"model":		"models/player/custom_player/kuristaja/jailbreak/guard4/guard4.mdl"
+			},
+			{
+				"grade":		"D.E.A",
+				"clantag":		"D.E.A",
+				"salary":		1700,
+				"model":		"models/player/custom_player/kuristaja/jailbreak/guard4/guard4.mdl"
+			},
+			{
+				"grade":		"Officier",
+				"clantag":		"Officier",
+				"salary":		1500,
+				"model":		"models/player/custom_player/kuristaja/jailbreak/guard1/guard1.mdl"
+			},
+			{
+				"grade":		"Cadet",
+				"clantag":		"Cadet",
+				"salary":		1300,
+				"model":		"models/player/custom_player/kuristaja/jailbreak/guard5/guard5.mdl"
+			}
+		]
+	},
+	{
+		"id":			2,
+		"jobname":		"Hôpital",
+		"capital":		1000000,
+		"doors":		"door_hospital",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef Hôpital",
+				"clantag":		"C.Hôpital",
+				"salary":		650,
+				"model":		"models/player/custom_player/legacy/gxp/bioshock/doctor/doctor_v1.mdl",
+				"arms":		"models/player/custom_player/legacy/gxp/bioshock/doctor/doctor_arm_v1.mdl"
+			},
+			{
+				"grade":		"Co-Chef Hôpital",
+				"clantag":		"Co.Hôpital",
+				"salary":		650,
+				"model":		"models/player/custom_player/legacy/gxp/bioshock/doctor/doctor_v1.mdl",
+				"arms":			"models/player/custom_player/legacy/gxp/bioshock/doctor/doctor_arm_v1.mdl"
+			},
+			{
+				"grade":		"Chirurgien",
+				"clantag":		"Hôpital",
+				"salary":		630,
+				"model":		"models/player/custom_player/legacy/gxp/bioshock/doctor/doctor_v1.mdl",
+				"arms":			"models/player/custom_player/legacy/gxp/bioshock/doctor/doctor_arm_v1.mdl"
+			},
+			{
+				"grade":		"Médecin",
+				"clantag":		"Hôpital",
+				"salary":		570,
+				"model":		"models/player/custom_player/legacy/gxp/bioshock/doctor/doctor_v1.mdl",
+				"arms":			"models/player/custom_player/legacy/gxp/bioshock/doctor/doctor_arm_v1.mdl"
+			},
+			{
+				"grade":		"Aide-Soignant",
+				"clantag":		"Hôpital",
+				"salary":		550,
+				"model":		"models/player/custom_player/legacy/gxp/bioshock/doctor/doctor_v1.mdl",
+				"arms":			"models/player/custom_player/legacy/gxp/bioshock/doctor/doctor_arm_v1.mdl"
+			}
+		]
+	},
+	{
+		"id":			3,
+		"jobname":		"Mairie",
+		"capital":		1000000,
+		"doors":		"door_townhall",
+		"cansell":		0,
+		"grades":[
+			{
+				"grade":		"Maire de Portland",
+				"clantag":		"Maire",
+				"salary":		1500
+			},
+			{
+				"grade":		"Council-manager",
+				"clantag":		"Adj.Maire",
+				"salary":		1300
+			},
+			{
+				"grade":		"Bodyguard",
+				"clantag":		"Mairie",
+				"salary":		1100
+			},
+			{
+				"grade":		"Security",
+				"clantag":		"Mairie",
+				"salary":		900
+			}
+		]
+	},
+	{
+		"id":			4,
+		"jobname":		"Armurerie",
+		"capital":		1000000,
+		"doors":		"door_ammunation",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef",
+				"clantag":		"C.Armurerie",
+				"salary":		1500
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.Armurerie",
+				"salary":		1300
+			},
+			{
+				"grade":		"Expert en Armement",
+				"clantag":		"Armurerie",
+				"salary":		900
+			},
+			{
+				"grade":		"Stockeur d'armes",
+				"clantag":		"Armurerie",
+				"salary":		800
+			},
+			{
+				"grade":		"Apprenti",
+				"clantag":		"Armurerie",
+				"salary":		700
+			}
+		]
+	},
+	{
+		"id":			5,
+		"jobname":		"Justice",
+		"capital":		1000000,
+		"doors":		"door_tribunal",
+		"cansell":		0,
+		"grades": [
+			{
+				"grade":		"Président",
+				"clantag":		"P.Justice",
+				"salary":		2000,
+				"model":		"none",
+				"arms":			"none"
+			},
+			{
+				"grade":		"V-Président",
+				"clantag":		"VP.Justice",
+				"salary":		1900,
+				"model":		"none",
+				"arms":			"none"
+			},
+			{
+				"grade":		"Substitut du Procureur",
+				"clantag":		"Haut-Juge",
+				"salary":		1800,
+				"model":		"none",
+				"arms":			"none"
+			},
+			{
+				"grade":		"Magistrat",
+				"clantag":		"Justice",
+				"salary":		1700,
+				"model":		"none",
+				"arms":			"none"
+			},
+			{
+				"grade":		"Juge d'Instance",
+				"clantag":		"Justice",
+				"salary":		1600,
+				"model":		"none",
+				"arms":			"none"
+			},
+			{
+				"grade":		"Juge d'Instruction",
+				"clantag":		"Justice",
+				"salary":		1500,
+				"model":		"none",
+				"arms":			"none"
+			},
+			{
+				"grade":		"Juge d'Appel",
+				"clantag":		"Justice",
+				"salary":		1300,
+				"model":		"none",
+				"arms":			"none"
+			}
+		]
+	},
+	{
+		"id":			6,
+		"jobname":		"Agence Immobilière",
+		"capital":		1000000,
+		"doors":		"door_immobilier;door_hotel",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef",
+				"clantag":		"C.Immobilier",
+				"salary":		1500
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.Immobilier",
+				"salary":		1300
+			},
+			{
+				"grade":		"Commissaire-priseur",
+				"clantag":		"Immobilier",
+				"salary":		900
+			},
+			{
+				"grade":		"Agent Immobilier",
+				"clantag":		"Immobilier",
+				"salary":		800
+			},
+			{
+				"grade":		"Apprenti",
+				"clantag":		"Immobilier",
+				"salary":		700
+			}
+		]
+	},
+	{
+		"id":			7,
+		"jobname":		"Dealer",
+		"capital":		1000000,
+		"doors":		"door_dealer",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef",
+				"clantag":		"C.Dealer",
+				"salary":		1500
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.Dealer",
+				"salary":		1300
+			},
+			{
+				"grade":		"Grossiste",
+				"clantag":		"Dealer",
+				"salary":		900
+			},
+			{
+				"grade":		"Vendeur Confirmé",
+				"clantag":		"Dealer",
+				"salary":		800
+			},
+			{
+				"grade":		"Guetteur",
+				"clantag":		"Dealer",
+				"salary":		700
+			}
+		]
+	},
+	{
+		"id":			8,
+		"jobname":		"Technicien",
+		"capital":		1000000,
+		"doors":		"door_technician",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef",
+				"clantag":		"C.Technicien",
+				"salary":		1500
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.Technicien",
+				"salary":		1300
+			},
+			{
+				"grade":		"Ingénieur",
+				"clantag":		"Technicien",
+				"salary":		900
+			},
+			{
+				"grade":		"Développeur",
+				"clantag":		"Technicien",
+				"salary":		800
+			},
+			{
+				"grade":		"Hacker",
+				"clantag":		"Technicien",
+				"salary":		700
+			}
+		]
+	},
+	{
+		"id":			9,
+		"jobname":		"Banque",
+		"capital":		1000000,
+		"doors":		"door_bank",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef",
+				"clantag":		"C.Banque",
+				"salary":		1500
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.Banque",
+				"salary":		1300
+			},
+			{
+				"grade":		"Expert",
+				"clantag":		"Banque",
+				"salary":		900
+			},
+			{
+				"grade":		"Assureur",
+				"clantag":		"Banque",
+				"salary":		800
+			},
+			{
+				"grade":		"Stagiaire",
+				"clantag":		"Banque",
+				"salary":		700
+			}
+		]
+	},
+	{
+		"id":			10,
+		"jobname":		"Investipole",
+		"capital":		1000000,
+		"doors":		"door_investipole",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef",
+				"clantag":		"C.Investipole",
+				"salary":		1500
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.Investipole",
+				"salary":		1300
+			},
+			{
+				"grade":		"captain",
+				"clantag":		"Investipole",
+				"salary":		900
+			},
+			{
+				"grade":		"investigator",
+				"clantag":		"Investipole",
+				"salary":		800
+			},
+			{
+				"grade":		"Assassins",
+				"clantag":		"Investipole",
+				"salary":		700
+			}
+		]
+	},
+	{
+		"id":			11,
+		"jobname":		"Artificier",
+		"capital":		1000000,
+		"doors":		"door_artificer",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef",
+				"clantag":		"C.Artificier",
+				"salary":		1500
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.Artificier",
+				"salary":		1300
+			},
+			{
+				"grade":		"Expert en Explosifs",
+				"clantag":		"Artificier",
+				"salary":		900
+			},
+			{
+				"grade":		"Artificier Pro",
+				"clantag":		"Artificier",
+				"salary":		800
+			},
+			{
+				"grade":		"Apprenti",
+				"clantag":		"Artificier",
+				"salary":		700
+			}
+		]
+	},
+	{
+		"id":			12,
+		"jobname":		"The North Face",
+		"capital":		1000000,
+		"doors":		"door_skin",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"PDG",
+				"clantag":		"C.The North Face",
+				"salary":		1300
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.The North Face",
+				"salary":		1100
+			},
+			{
+				"grade":		"Manager",
+				"clantag":		"The North Face",
+				"salary":		900
+			},
+			{
+				"grade":		"Vendeur confirmé",
+				"clantag":		"The North Face",
+				"salary":		800
+			},
+			{
+				"grade":		"Vendeur",
+				"clantag":		"The North Face",
+				"salary":		700
+			}
+		]
+	},
+	{
+		"id":			13,
+		"jobname":		"Kebab",
+		"capital":		1000000,
+		"doors":		"door_kebab",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef",
+				"clantag":		"C.Kebab",
+				"salary":		1500
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.Kebab",
+				"salary":		1300
+			},
+			{
+				"grade":		"Manager",
+				"clantag":		"Cui.Kebabier",
+				"salary":		900
+			},
+			{
+				"grade":		"Cuisto",
+				"clantag":		"Kebabier",
+				"salary":		800
+			},
+			{
+				"grade":		"Vendeur",
+				"clantag":		"McDo",
+				"salary":		700
+			}
+		]
+	},
+	{
+		"id":			14,
+		"jobname":		"Casino royale",
+		"capital":		1000000,
+		"doors":		"door_casino",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef",
+				"clantag":		"C.Royale",
+				"salary":		1300
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.Royale",
+				"salary":		1100
+			},
+			{
+				"grade":		"Manager",
+				"clantag":		"Casino royale",
+				"salary":		900
+			},
+			{
+				"grade":		"Loto",
+				"clantag":		"Casino royale",
+				"salary":		800
+			},
+			{
+				"grade":		"Croupier",
+				"clantag":		"Casino royale",
+				"salary":		700
+			}
+		]
+	},
+	{
+		"id":			15,
+		"jobname":		"Coach",
+		"capital":		1000000,
+		"doors":		"door_coach",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef",
+				"clantag":		"C.Coach",
+				"salary":		1300
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.Coach",
+				"salary":		1100
+			},
+			{
+				"grade":		"Manager",
+				"clantag":		"Coach",
+				"salary":		900
+			},
+			{
+				"grade":		"Coach Expert",
+				"clantag":		"Coach",
+				"salary":		800
+			},
+			{
+				"grade":		"Coach",
+				"clantag":		"Coach",
+				"salary":		700
+			}
+		]
+	},
+	{
+		"id":			16,
+		"jobname":		"SexShop",
+		"capital":		1000000,
+		"doors":		"door_sexshop",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef",
+				"clantag":		"C.SexShop",
+				"salary":		1300
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.SexShop",
+				"salary":		1100
+			},
+			{
+				"grade":		"Conseiller en SexToys",
+				"clantag":		"SexShop",
+				"salary":		900
+			},
+			{
+				"grade":		"Expert en SexToys",
+				"clantag":		"SexShop",
+				"salary":		800
+			},
+			{
+				"grade":		"Vendeur",
+				"clantag":		"SexShop",
+				"salary":		700
+			}
+		]
+	},
+	{
+		"id":			17,
+		"jobname":		"Éboueur",
+		"capital":		1000000,
+		"doors":		"door_garbage",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef",
+				"clantag":		"C.Éboueur",
+				"salary":		1300
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.Éboueur",
+				"salary":		1100
+			},
+			{
+				"grade":		"Manager",
+				"clantag":		"Éboueur",
+				"salary":		900
+			},
+			{
+				"grade":		"Éboueur",
+				"clantag":		"Éboueur",
+				"salary":		800
+			},
+			{
+				"grade":		"Trieur",
+				"clantag":		"Éboueur",
+				"salary":		700
+			}
+		]
+	},
+	{
+		"id":			18,
+		"jobname":		"CarShop",
+		"capital":		1000000,
+		"doors":		"door_cardealer",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef",
+				"clantag":		"C.CarShop",
+				"salary":		1500
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.CarShop",
+				"salary":		1300
+			},
+			{
+				"grade":		"Expert en tuning",
+				"clantag":		"CarShop",
+				"salary":		900
+			},
+			{
+				"grade":		"Vendeur",
+				"clantag":		"CarShop",
+				"salary":		800
+			},
+			{
+				"grade":		"Mécanicien",
+				"clantag":		"CarShop",
+				"salary":		700
+			}
+		]
+	},
+	{
+		"id":			19,
+		"jobname":		"Marché Noir",
+		"capital":		1000000,
+		"doors":		"door_blackmarket",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef",
+				"clantag":		"C.M-N",
+				"salary":		1500
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.M-N",
+				"salary":		1300
+			},
+			{
+				"grade":		"Marchand",
+				"clantag":		"M-N",
+				"salary":		900
+			},
+			{
+				"grade":		"Vendeur",
+				"clantag":		"M-N",
+				"salary":		800
+			}
+		]
+	},
+	{
+		"id":			20,
+		"jobname":		"Barman",
+		"capital":		1000000,
+		"doors":		"door_barman",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef",
+				"clantag":		"C.Barman",
+				"salary":		1500
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.Barman",
+				"salary":		1300
+			},
+			{
+				"grade":		"Réassortisseur",
+				"clantag":		"Barman",
+				"salary":		900
+			},
+			{
+				"grade":		"Barman",
+				"clantag":		"Barman",
+				"salary":		800
+			}
+		]
+	},
+	{
+		"id":			21,
+		"jobname":		"Fermier",
+		"capital":		1000000,
+		"doors":		"door_barn;door_farm",
+		"cansell":		1,
+		"grades": [
+			{
+				"grade":		"Chef",
+				"clantag":		"C.Fermier",
+				"salary":		1500
+			},
+			{
+				"grade":		"Co-Chef",
+				"clantag":		"Co.Fermier",
+				"salary":		1300
+			},
+			{
+				"grade":		"Agriculteur",
+				"clantag":		"Agriculteur",
+				"salary":		900
+			},
+			{
+				"grade":		"Fermier",
+				"clantag":		"Fermier",
+				"salary":		800
+			}
+		]
+	}
+]
